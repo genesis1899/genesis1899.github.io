@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Yoga Saravanan</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link"
+          >YS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#experience">Experiences</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          
+          
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+      
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+      
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+      
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am 
+          <span class="about__name">Yoga Saravanan</span>
+          <img src="./images/Media.jpg" alt="Profile Photo" class="about__photo" />
+        </h1>
+        <h2 class="about__role">Data Analyst, Data nerd</h2>
+        <p class="about__desc">
+          Hi there! I'm Yoga Saravanan, your friendly neighborhood data detective.I thrive on finding patterns and making sense of chaos.
+          When I'm not deep-diving into numbers, you might find me strumming my guitar, perfecting my crochet skills, whipping up something delicious in the kitchen, 
+          or getting lost in a good book.
+          
+         
+        </p>
+        <p class ='about__desc'>
+          Curious and creative, that's me in a nutshell!  
+        </p>
+        <p class ='about__desc'>
+          People say I'm the witty, nerdy friend who somehow always has a solution—whether it's for your Excel woes or your existential ones. 
+          My dream? To be the data solutions expert you can always count on.Whether you're looking for innovative data solutions, need help uncovering patterns, 
+          or want a meticulous eye on your analytics challenges, I’m your go-to person!
+        </p>
+
+        <div class="about__contact center">
+          <a href="./assets/resume.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/genesis1899?tab=repositories"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/yogalakshmi-saravanan-4650371ab/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+<!-- Experience Section -->
+<section class="experience" id="experience">
+  <h2>My Experience Stories -  Things you won't find on my resume!</h2>
+  <div class="experience__list">
+  <!-- Experience Card 1 -->
+  <div class="experience__item" onclick="openModal('modal1')">
+    <div class="experience__content">
+      <h3 class="experience__job-title"> Computer VisionData Analyst Intern </h3>
+      <p class="experience__company">LightPath Technologies - orlando</p>
+      <p class="experience__dates">Aug2024 - Present</p>
+    </div>
+  </div>
+
+  <!-- Modal for Experience 1 -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <p> I started off as a Computer Vision Intern working on thermal object detection in Lightpath Technologies with the R&D team. 
+        Seeing my aptitude with data I was tasked with additionally handling PowerBI dashboards by the CIO. 
+        I loved handling two different genres of dashboard and image data and I took up the challenge! </p>
+    </div>
+  </div>
+
+  <!-- Experience Card 2 -->
+  <div class="experience__item" onclick="openModal('modal2')">
+    <div class="experience__content">
+      <h3 class="experience__job-title">Data Scientist </h3>
+      <p class="experience__company">Genpact - India</p>
+      <p class="experience__dates">Feb 2022 - Aug 2022</p>
+    </div>
+  </div>
+
+  <!-- Modal for Experience 2 -->
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <p>I worked closely with the R&D team in Genpact to create an advanced 3D generation model.
+        This experience introduced me to advanced machine learnig and mathematical skills. 
+        I loved the process of working with a dedicated data science team and I collaborated with some fanstastic data scientists whose guidance I seek till date!
+        I was offered the lucky opportunity to pursue my master's degree in UCF which is why my experince was cut short earlier.
+      </p>
+    </div>
+  </div>
+
+  <div class="experience__item" onclick="openModal('modal3')">
+    <div class="experience__content">
+      <h3 class="experience__job-title">Database Developer </h3>
+      <p class="experience__company">ZigZag Art Printers - India</p>
+      <p class="experience__dates">July 2021 - Dec 2021 (contract) </p>
+    </div>
+  </div>
+
+  <!-- Modal for Experience 3 -->
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <p>This was my first time as a contractor for a small company with not so small data! 
+        I enjoyed having the creative control to explore my ideas and work with multiple teams to give a robust database solution. 
+        I learn to fully lead and execute a project with and without guidance and this has helped me tremendously wherever I went.</p>
+    </div>
+  </div>
+
+  <div class="experience__item" onclick="openModal('modal4')">
+    <div class="experience__content">
+      <h3 class="experience__job-title">Data Science Intern </h3>
+      <p class="experience__company">Amphenol Interconnect - India</p>
+      <p class="experience__dates"> March 2021 - June 2021</p>
+    </div>
+  </div>
+
+  <!-- Modal for Experience 4 -->
+  <div class="modal" id="modal4">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal4')">&times;</span>
+      <p>I transitioned from building small passion projects to the big corporate world here.
+        It was an eye opener and the knowledege I gained here is what cemented my passion for data and analytics as a career. 
+        I worked with huge data and I learnt to apply the best industry practices in my methods. </p>
+    </div>
+  </div>
+
+  </div>
+  
+</section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Dashboards</h3>
+            <p class="project__description">
+              Take a look at some of the PowerBI dashboards I have built. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Machine Learning Projects</h3>
+            <p class="project__description">
+              Here is a collection of all the ML, CV and NLP based models I have built.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Data Handling</h3>
+            <p class="project__description">
+              These are collection of projects that show how I handle data visualization, preprocessing, cleaning etc.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">PYTHON</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">EXCEL</li>
+          <li class="skills__list-item btn btn--plain">POWERBI</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">DATA VISUALIZATION</li>
+          <li class="skills__list-item btn btn--plain">DATA ANALYSIS</li>
+          <li class="skills__list-item btn btn--plain">COMPUTER VISION</li>
+          <li class="skills__list-item btn btn--plain">MACHINE LEARNING</li>
+          <li class="skills__list-item btn btn--plain">AI</li>
+          <li class="skills__list-item btn btn--plain">DATABRICKS</li>
+          <li class="skills__list-item btn btn--plain">HTML/CSS</li>
+          <li class="skills__list-item btn btn--plain">JAVASCRIPT</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:yogasaravanan1000@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Yoga
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
