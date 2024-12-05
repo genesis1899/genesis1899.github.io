@@ -221,7 +221,7 @@ button {
 }
 
 main {
-  max-width: 1100px;
+  max-width: 2500px;
   width: 95%;
   margin: 0 auto;
 }
@@ -292,7 +292,7 @@ main {
 }
 
 .projects__grid {
-  max-width: 1100px;
+  max-width: 2500px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
