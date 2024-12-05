@@ -216,14 +216,14 @@ button {
 
 .header {
   height: 8em;
-  max-width: 3500px;
+  max-width: 2800px;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
 }
 
 main {
-  max-width: 3500px;
+  max-width: 2800px;
   width: 95%;
   margin: 0 auto;
 }
@@ -268,7 +268,7 @@ main {
 
 .about__desc {
   font-size: 1rem;
-  max-width: 3000px;
+  max-width: 2800px;
 }
 .about__photo {
   width: 150px; /* Adjust to the desired size */
@@ -294,7 +294,7 @@ main {
 }
 
 .projects__grid {
-  max-width: 3000px;
+  max-width: 2800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
